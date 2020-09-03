@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>40c379b4-b128-449b-bd0b-82dbb59010af</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>02e4ebb7-0850-4bbc-b123-1d7b671ab715</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DearImgui">
+      <UniqueIdentifier>{bb39911b-a50b-47fd-ae84-9b0b28d1d9b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Wall.h" />
+    <ClInclude Include="Interactable.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="DearImgui\imconfig.h">
+      <Filter>DearImgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DearImgui\imgui.h">
+      <Filter>DearImgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DearImgui\imgui_impl_dx11.h">
+      <Filter>DearImgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DearImgui\imgui_internal.h">
+      <Filter>DearImgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DearImgui\imstb_rectpack.h">
+      <Filter>DearImgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DearImgui\imstb_textedit.h">
+      <Filter>DearImgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DearImgui\imstb_truetype.h">
+      <Filter>DearImgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DearImgui\imgui_impl_win32.h">
+      <Filter>DearImgui</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeGenerator.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Wall.cpp" />
+    <ClCompile Include="Interactable.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="DearImgui\imgui.cpp">
+      <Filter>DearImgui</Filter>
+    </ClCompile>
+    <ClCompile Include="DearImgui\imgui_draw.cpp">
+      <Filter>DearImgui</Filter>
+    </ClCompile>
+    <ClCompile Include="DearImgui\imgui_impl_dx11.cpp">
+      <Filter>DearImgui</Filter>
+    </ClCompile>
+    <ClCompile Include="DearImgui\imgui_widgets.cpp">
+      <Filter>DearImgui</Filter>
+    </ClCompile>
+    <ClCompile Include="DearImgui\imgui_impl_win32.cpp">
+      <Filter>DearImgui</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeGenerator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Assets\SegoeUI_18.spritefont">
+      <Filter>Assets</Filter>
+    </None>
+  </ItemGroup>
+</Project>
