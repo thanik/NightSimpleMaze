@@ -1,7 +1,7 @@
 # NightSimpleMaze
-[Video gameplay](https://www.youtube.com/watch?v=)
+[Gameplay video](https://youtu.be/sOoMzLTS728)
 ## Introduction
-NightSimpleMaze is a simple first-person maze game that the player has to collect all the items and get to the exit flag. The maze and items will be generated procedurally. The players can specify the size of the maze and how many the items are there in the maze. The game utilizes DirectX API based on DirectX Tool Kit (DirectXTK). This work is a part of the submission in CMP505	Advanced Procedural Methods module.
+NightSimpleMaze is a simple first-person maze game that the player has to collect all the items and get to the exit flag. The maze and items will be generated procedurally. The players can specify the size of the maze and how many items are there in the maze. The game utilizes DirectX API based on DirectX Tool Kit (DirectXTK) and [Dear Imgui](https://github.com/ocornut/imgui) for user interface. The game also features Blur post-processing effect. This work is a part of the submission in CMP505 Advanced Procedural Methods module.
 
 Executable binary with required assets can be found in [Release](../../releases) section.
 
